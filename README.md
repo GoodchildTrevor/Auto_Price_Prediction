@@ -6,13 +6,13 @@ This project involves the use of various regression-oriented machine learning al
 
 # How it Works
 
-The approach taken in this project involves several steps:
-* Data Preprocessing: The missing values are handled, duplicates are removed, outliers are identified, and irrelevant features are eliminated. One-hot encoding is then applied to categorical features.
-* Data Splitting: The data is divided into training, validation, and test sets.
-* Model Training: Various models including CatBoostRegressor, LightGBM, XGBoost, and RandomForestRegressor are trained and their hyperparameters are tuned.
-* Model Evaluation: Each model's performance is evaluated on the validation set based on the RMSE (Root Mean Squared Error) metric. The time taken for both training and prediction is also recorded.
-* Final Model Testing: The best model, as determined by RMSE and computation time, is then employed to make predictions on the test set.
-* Comparison with a Baseline Model: The results are compared to a baseline model generated using the DummyRegressor.
+* **Data Preprocessing**
+<br>The missing values are handled, duplicates are removed, outliers are identified, and irrelevant features are eliminated. One-hot encoding is then applied to categorical features.
+* **Data Splitting** <br> The data is divided into training, validation, and test sets.
+* **Model Training**<br> Various models including CatBoostRegressor, LightGBM, XGBoost, and RandomForestRegressor are trained and their hyperparameters are tuned.
+* **Model Evaluation** <br> Each model's performance is evaluated on the validation set based on the RMSE (Root Mean Squared Error) metric. The time taken for both training and prediction is also recorded.
+* **Final Model Testing** <br> The best model, as determined by RMSE and computation time, is then employed to make predictions on the test set.
+* **Comparison with a Baseline Model** <br> The results are compared to a baseline model generated using the DummyRegressor.
 
 # Dependencies:
 To run the project, you will need to have the following libraries installed:
@@ -27,3 +27,6 @@ xgboost: for implementing XGBoost, a gradient boosting model.
 pandas_profiling: for generating profile reports from a pandas DataFrame.
 ydata-profiling: for exploratory data analysis.
 scipy: for scientific computations.
+
+# Concslusions
+This Auto Price Prediction project focuses on predicting the price of used cars. Multiple regression-oriented machine learning algorithms, including CatBoost, LightGBM, XGBoost, and RandomForest, were employed. The models underwent hyperparameter optimization, and their performance was evaluated using RMSE on the validation set. The best-performing model was selected for predictions on the test set. The project provides a valuable solution for accurately estimating automobile prices, aiding buyers and sellers in making informed decisions.
