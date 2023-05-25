@@ -14,7 +14,7 @@ This project involves the use of various regression-oriented machine learning al
 * **Final Model Testing** <br> The best model, as determined by RMSE and computation time, is then employed to make predictions on the test set.
 * **Comparison with a Baseline Model** <br> The results are compared to a baseline model generated using the DummyRegressor.
 
-# Dependencies:
+# Dependencies
 To run the project, you will need to have the following libraries installed:
 
 pandas: for data manipulation and analysis.
